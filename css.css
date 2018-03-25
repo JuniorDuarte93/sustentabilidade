@@ -1,0 +1,562 @@
+@charset "utf-8";
+
+
+@font-face 
+{
+font-family: titulo;
+src:url(fontes/PoetsenOne-Regular.ttf);
+}
+
+
+body
+{ 
+    background-image:url(imagens/fundo.jpg);
+ 	
+}
+
+
+#container
+{
+	width: 1280px;
+	height: auto;
+	border:#7BBDE8 solid 3px;
+	margin:auto;	
+	background-color:#FFFFFF;
+}
+
+
+
+#tituloprincipal1
+{ 
+	font-family: titulo;
+	color:#16D74A;
+	font-size:70px;
+	width: 500px;
+	float:right;
+	margin-right: 200px;	
+	margin-top: 100px;
+}
+
+
+#logo
+{
+	position:relative;
+	top: 5px;
+	left:10px;
+}
+
+/*----------------------------------//-------------------------------*/
+
+#cssmenu,
+#cssmenu > ul {
+  background-color:#7BBDE8;
+  padding-bottom: 3px;
+  font-family:titulo;
+  font-weight: 600;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+#cssmenu:before,
+#cssmenu:after,
+#cssmenu > ul:before,
+#cssmenu > ul:after {
+  content: "";
+  display: table;
+}
+#cssmenu:after,
+#cssmenu > ul:after {
+  clear: both;
+}
+#cssmenu {
+  width: auto;
+  zoom: 1;
+}
+#cssmenu > ul {
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu > ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu > ul > li {
+  float: left;
+  position: relative;
+}
+#cssmenu > ul > li > a {
+  padding: 23px 26px;
+  display: block;
+  color: #16D74A;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 18px;
+}
+#cssmenu > ul > li:hover > a {
+
+  color: #7BBDE8;
+  background-color: hsla(0,0%,99%,0.00);
+  text-shadow: 0 -1px 0 #59FD00;
+  text-shadow: 0 -1px 0 rgba(122, 42, 26, 0.64);
+}
+#cssmenu > ul > li > a > span {
+  line-height: 18px;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li > a:active {
+  background-color: #FFFFFF;
+}
+
+#cssmenu > ul ul {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 120px;
+  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+#cssmenu > ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  margin: 0;
+  color: #D91215;
+  z-index: 2;
+  top: 64px;
+  left: 0;
+}
+#cssmenu > ul ul:before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: 20px;
+  background: transparent;
+}
+#cssmenu > ul ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+#cssmenu > ul ul li a {
+  padding: 18px 26px;
+  display: block;
+  color: #7BBDE8;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 150px;
+  border-left: 4px solid transparent;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+#cssmenu > ul ul li a:hover {
+  border-left: 4px solid #7BBDE8;
+  background-color: hsla(0,0%,100%,0.00);
+}
+#cssmenu > ul ul li a:active {
+  background-color:#7BBDE8;
+}
+
+
+
+
+/*----------------------------------//-------------------------------*/
+
+  
+
+
+article
+{ 
+
+    width: 65%;
+    
+	margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	
+}
+
+#imgpgidex
+{ margin-left:20%;
+margin-top: 35px;
+margin-bottom: 30px;
+	
+	
+	
+}
+
+#index p
+
+{
+  color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 50px;
+	
+}
+
+
+#ytoqe
+{ 
+	
+	margin-left:80px;
+}
+
+
+#dicas
+{ 
+
+    float:right;
+	width: 28%;
+	position:relative;
+	margin-right: 15px;
+	border-left: #7BBDE8 solid 3px;
+	padding: 10px;
+	 color: #44D859;
+  font-family:titulo;
+  text-align:justify;	
+  font-size: 20px;
+  margin-bottom: 60px;
+	
+}
+
+#titulodicas
+
+{
+	font-family:titulo;
+	color:#7BBDE8;
+	margin-bottom: 40px;
+	margin-left: 20%;
+		
+}
+
+
+footer 
+
+
+{
+	clear:both;
+	margin-top: 1500px;
+	margin-bottom: 10px;
+	position:relative;
+	border-top:#7BBDE8 solid 3px;
+	height:300px;
+	
+}
+
+
+
+
+#menufooter li
+
+{
+	list-style:none;
+	text-decoration:none;
+
+}
+
+
+
+#menufooter 
+
+{
+width: 32%;
+height: 285px;	
+float:left;
+margin-top: 5px;
+}
+
+#menufooter li a
+{
+	list-style:none;
+	text-decoration:none;
+	font-family: titulo;
+	color:#7BBDE8;	
+	margin-top:5px;
+}
+
+#menufooter li a:hover {
+	
+	color:#44D859;	
+}
+
+
+#duvidasfooter
+
+{
+width: 32%;
+border-left: 2px #7BBDE8 solid; 
+border-right: 2px #7BBDE8 solid;
+	float:left;
+	height: 285px;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+
+.textduvidasfooter
+{
+	
+	font-family: titulo;
+	color:#7BBDE8;
+	font-size:16px;
+	position:relative;
+	margin-left: 8px
+	
+	
+}
+
+
+#facefooter
+
+{
+width: 32%;
+height: 285px;
+float:right;
+margin-top: 5px;
+}
+
+.titulofooter
+{
+	font-family: titulo;
+	color:#16D74A;
+	font-size:25px;
+	position:relative;
+	margin-left: 8px
+}
+
+
+/*----------------------------------//-------------------------------*/
+#pgsustentabilidade
+
+{ 
+
+    width: 65%;
+    margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	
+	
+}
+
+
+#txtpgsustentabilidade
+
+{
+   color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 50px;
+
+}
+
+#imgpgsustentabilidade
+{
+margin-left:15%;
+margin-top: 35px;
+margin-bottom: 30px;	
+}
+
+#h1pgsustentabilidade
+
+{
+	color: #7BBDE8;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+
+
+
+}
+
+
+/*----------------------------------//-------------------------------*/
+
+#pgtresrs
+
+{ 
+
+    width: 65%;
+    margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	
+	
+}
+
+.txtpgtresrs
+{
+	
+	color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.h2pgtresrs
+{
+	color: #7BBDE8;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+	
+	
+}
+
+
+
+#imgpgtresrs
+{
+	margin-left:15%;
+margin-top: 35px;
+margin-bottom: 30px;
+	
+	
+}
+
+/*----------------------------------//-------------------------------*/
+
+#pglixoeletronico
+
+{ 
+
+    width: 65%;
+    margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	
+	
+}
+
+
+.txpglixoeletronico
+{
+	
+	color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 15px;
+  
+}
+
+.txpglixoeletronico1
+{
+	
+	color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 50px;
+  
+}
+
+
+
+
+.h2pglixoeletronico
+{
+	color: #7BBDE8;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;	
+}
+
+
+#imgppglixoeletronico
+{
+	margin-left:15%;
+margin-top: 35px;
+margin-bottom: 30px;
+	
+	
+}
+
+
+/*----------------------------------//-------------------------------*/
+
+#pgdadossaude
+
+{ 
+
+    width: 65%;
+    margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	
+	
+}
+
+.txtpgdadossaude
+{
+	
+	color: #3E3E3E;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 21px;
+  margin-bottom: 20px;
+  
+}
+
+.h2pgdadossaude
+{
+	color: #7BBDE8;
+  font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-align:justify;	
+  font-size: 25px;	
+}
+
+
+/*----------------------------------//-------------------------------*/
+
+#pgduvidas
+
+{ 
+
+    width: 65%;
+    margin: 8px;
+	float:left;
+	position:relative;
+	top: 30px;
+	border:medium #7BBDE8 solid;
+	
+}
+
+
+#tituloduvidas
+
+{
+	font-family:titulo;
+	color:#7BBDE8;
+	margin-bottom: 60px;
+}
+
+#send label
+{
+	margin-right: 15px;
+	font-family:titulo;
+	color:#16D74A;
+	font-size: 25px;
+}
+
+#rodapeduvida
+{
+	font-family:titulo;
+	color:#F5D500;
+	font-size: 20px;
+}
